@@ -11,6 +11,7 @@ void main() {
     }
 
     System.out.print("===============================\n");
+    personJohn.getInformation();
     System.out.print("John getting new profession\n");
     personJohn.setNewProfession("web-developer");
     personJohn.getInformation();
