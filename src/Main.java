@@ -9,4 +9,10 @@ void main() {
     for(Person person : arrayOfPersons) {
         person.getInformation();
     }
+
+    System.out.print("===============================\n");
+    System.out.print("John getting new profession\n");
+    personJohn.setNewProfession("web-developer");
+    personJohn.getInformation();
+    System.out.print("===============================");
 }
